@@ -32,7 +32,7 @@ const ResumeComponent = () => {
                             </S.ContactDiv>
                             <S.ContactDiv>
                                 <S.ContactMethod1>Portfolio.</S.ContactMethod1>
-                                <S.ContactMethod2 style={{ whiteSpace: 'nowrap' }}>https://heartfelt-dragon-0086bb.netlify.app</S.ContactMethod2>
+                                <S.ContactMethod2 style={{ whiteSpace: 'nowrap' }}>https://https://hyejiportfolio.netlify.app/</S.ContactMethod2>
                             </S.ContactDiv>
                         </S.ResumeContact>
                     </S.RightContent>
@@ -275,8 +275,8 @@ const ResumeComponent = () => {
                                         <S.Th>프로젝트 결과물</S.Th>
                                         <S.Td>
                                             <S.Ul>
-                                                <S.Li>https://heartfelt-dragon-0086bb.netlify.app</S.Li>
-                                                <S.Li>https://kdt-gitlab.elice.io/sw_track/class_05/web_2_project/team08/tastytogther-fe</S.Li>
+                                                <S.Li>https://https://hyejiportfolio.netlify.app/</S.Li>
+                                                <S.Li>https://github.com/shinhyeiji/new-portfolio</S.Li>
                                             </S.Ul>
                                         </S.Td>
                                     </S.Tr>
