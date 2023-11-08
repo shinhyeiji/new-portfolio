@@ -1,6 +1,5 @@
 import React from 'react';
 import * as S from './style/ResumeComponent.style';
-import { Link } from 'react-router-dom';
 
 const ResumeComponent = () => {
     return(
