@@ -12,9 +12,8 @@ const ProjectComponent = () => {
                 <S.ProjectContent>
                     <S.LinkDiv>
                         <S.None></S.None>
-                        <S.StyledLink to="http://kdt-sw-5-team02.elicecoding.com">
-                            <S.ProjectLink><span class="material-symbols-outlined">link</span> 웹페이지로 이동 ▶</S.ProjectLink>
-                        </S.StyledLink>
+                        <br />
+                        <br />
                     </S.LinkDiv>
                     <S.ProjectExplanation>
                         <S.ProjectExplanationDiv>
@@ -156,9 +155,8 @@ const ProjectComponent = () => {
                 <S.ProjectContent>
                     <S.LinkDiv>
                         <S.None></S.None>
-                        <S.StyledLink to="http://kdt-sw-5-2-team08.elicecoding.com">
-                            <S.ProjectLink><span class="material-symbols-outlined">link</span> 웹페이지로 이동 ▶</S.ProjectLink>
-                        </S.StyledLink>
+                        <br />
+                        <br />
                     </S.LinkDiv>
                     <S.ProjectExplanation>
                         <S.ProjectExplanationDiv>

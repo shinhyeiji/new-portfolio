@@ -1,5 +1,6 @@
 import React from 'react';
 import * as S from './style/ResumeComponent.style';
+import { Link } from 'react-router-dom';
 
 const ResumeComponent = () => {
     return(
@@ -32,7 +33,7 @@ const ResumeComponent = () => {
                             </S.ContactDiv>
                             <S.ContactDiv>
                                 <S.ContactMethod1>Portfolio.</S.ContactMethod1>
-                                <S.ContactMethod2 style={{ whiteSpace: 'nowrap' }}>https://https://hyejiportfolio.netlify.app/</S.ContactMethod2>
+                                <S.ContactMethod2 style={{ whiteSpace: 'nowrap' }}>https://hyejiportfolio.netlify.app/</S.ContactMethod2>
                             </S.ContactDiv>
                         </S.ResumeContact>
                     </S.RightContent>
@@ -103,18 +104,25 @@ const ResumeComponent = () => {
                                             <S.DevUl>
                                                 <S.DevLi>다이어트 식사 판매 웹페이지</S.DevLi>
                                                 <S.DevLi2>2023.07.03 ~ 2023.07.14</S.DevLi2>
+                                                <br />
                                                 <S.DevLi>맛집 추천 소셜 웹페이지</S.DevLi>
                                                 <S.DevLi2>2023.08.14 ~ 2023.09.01</S.DevLi2>
-                                                <br/>
-
+                                                <br />
+                                                <br />
+                                                <S.DevLi>유치원 교사 업무 웹페이지</S.DevLi>
+                                                <S.DevLi2>2023.09.25 ~ 2023.11.08</S.DevLi2>
                                             </S.DevUl>
                                         </S.DevTd>
                                         <S.DevTd2>
                                             <S.DevUl>
                                                 <S.DevLi>async-await, fetch, try-catch문을 이용하여 비동기로 데이터를 가져와 처리하였습니다.</S.DevLi>
                                                 <S.DevLi>이미지슬라이드, 검색기능, fetchData이용, 토큰이용방법을 학습하였습니다.</S.DevLi>
+                                                <br />
                                                 <S.DevLi>react를 이용해 다음주소, 카카오맵API를 응용하는 방법, 모달, 이미지업로드, 검색 및 정렬기능을 학습하였습니다.</S.DevLi>
                                                 <S.DevLi>리액트훅 이용, props전달 방법을 반복해서 사용해보며 심화있게 학습하였습니다.</S.DevLi>
+                                                <br />
+                                                <S.DevLi>탭 기능, 로컬스토리지, 이미지 슬라이드, 컴포넌트 분리에 대해 심화있게 학습하였습니다.</S.DevLi>
+                                                <br />
                                             </S.DevUl>
                                         </S.DevTd2>
                                     </S.DevTr>
@@ -213,7 +221,7 @@ const ResumeComponent = () => {
                                         <S.Th>프로젝트 결과물</S.Th>
                                         <S.Td>
                                             <S.Ul>
-                                                <S.Li>http://kdt-sw-5-2-team08.elicecoding.com</S.Li>
+                                                <S.Li >http://kdt-sw-5-2-team08.elicecoding.com</S.Li>
                                                 <S.Li>https://kdt-gitlab.elice.io/sw_track/class_05/web_2_project/team08/tastytogther-fe</S.Li>
                                             </S.Ul>
                                         </S.Td>
@@ -257,6 +265,66 @@ const ResumeComponent = () => {
                         <S.ResumeDetailText>
                             <S.ProjectTitle>
                                 <span class="material-symbols-outlined">hdr_strong</span>
+                                개인 프로젝트 - 유치원 교사 업무 웹사이트
+                                <span class="material-symbols-outlined">hdr_weak</span>
+                            </S.ProjectTitle>
+                            <S.ProjectExplanation>유치원 교사의 하루 일과를 정리하여 한 눈에 파악하기 쉽고, 매번 수작업으로 진행되던 반복 수업을 돕기 위한 웹사이트</S.ProjectExplanation>
+                            <S.Table>
+                                <S.Thead>
+                                    <S.Tr>
+                                        <S.Th>프로젝트</S.Th>
+                                        <S.Td>
+                                            <S.Ul>
+                                                <S.Li>개인 프로젝트</S.Li>
+                                            </S.Ul>
+                                        </S.Td>
+                                    </S.Tr>
+                                    <S.Tr>
+                                        <S.Th>프로젝트 결과물</S.Th>
+                                        <S.Td>
+                                            <S.Ul>
+                                                <S.Li>https://rainbow92.netlify.app</S.Li>
+                                                <S.Li>https://github.com/shinhyeiji/teachr-app</S.Li>
+
+                                            </S.Ul>
+                                        </S.Td>
+                                    </S.Tr>
+                                    <S.Tr>
+                                        <S.Th>활용한 기술스택</S.Th>
+                                        <S.Td>
+                                            <S.StackUl>
+                                                <S.StackLi>React</S.StackLi>
+                                                <S.StackLi>StyledComponent</S.StackLi>
+                                                <S.StackLi>Figma</S.StackLi>
+                                                <S.StackLi>Canva</S.StackLi>
+                                                <S.StackLi>Netlify</S.StackLi>
+                                            </S.StackUl>
+                                        </S.Td>
+                                    </S.Tr>
+                                    <S.Tr>
+                                        <S.Th>프론트엔드 구현기능</S.Th>
+                                        <S.Td>
+                                            <S.Ul>
+                                                <S.Li>SPA로 웹사이트를 구성하였고, 탭기능을 이용하여 화면전환이 되도록 하였습니다.</S.Li>
+                                                <S.Li>탭 전환 방식을 이용하여 여러 화면을 구성하였고, 로컬스토리지에 정보를 저장하여 캐시를 지우지 않는 한 반영구적으로 정보에 접근할 수 있도록 하였습니다.</S.Li>
+                                                <S.Li>글 작성-수정-삭제-업데이트, 슬라이드 버튼 화면전환, 시간기록, 카드 뒤집기, 숫자계산하기 등의 기능을 넣었습니다.</S.Li>
+                                                <S.Li>Netlify 클라우드 플랫폼을 이용하여 포트폴리오 웹사이트를 배포하였습니다.</S.Li>
+                                            </S.Ul>
+                                        </S.Td>
+                                    </S.Tr>
+                                </S.Thead>
+                            </S.Table>
+                        </S.ResumeDetailText>
+                    </S.ResumeDetail>
+                </S.ResumeDetailContent>
+            </S.ResumePage>
+            <S.ResumePage>
+                <S.ResumeDetailContent>
+                    <S.ResumeDetailHead></S.ResumeDetailHead>
+                    <S.ResumeDetail>
+                        <S.ResumeDetailText>
+                            <S.ProjectTitle>
+                                <span class="material-symbols-outlined">hdr_strong</span>
                                 Make a Portfolio
                                 <span class="material-symbols-outlined">hdr_weak</span>
                             </S.ProjectTitle>
@@ -275,7 +343,7 @@ const ResumeComponent = () => {
                                         <S.Th>프로젝트 결과물</S.Th>
                                         <S.Td>
                                             <S.Ul>
-                                                <S.Li>https://https://hyejiportfolio.netlify.app/</S.Li>
+                                                <S.Li>https://hyejiportfolio.netlify.app/</S.Li>
                                                 <S.Li>https://github.com/shinhyeiji/new-portfolio</S.Li>
                                             </S.Ul>
                                         </S.Td>
